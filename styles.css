@@ -1,0 +1,16 @@
+.el-clones-highlight {
+    position: relative;
+}
+
+.el-clones-highlight::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    background: rgba(75, 161, 255, 0.3);
+    border: 2px solid #4BA1FF;
+    z-index: 10000;
+}
